@@ -3,14 +3,31 @@ body, html {
 }
 
 .bgimg {
-    /* Background image */
     background-image: url('photo.jpg');
-    /* Full-screen */
     height: 100%;
-    /* Center the background image */
     background-position: center;
-    background-size: cover;
+    background-size: cover;*/
     position: relative;
-    /* Set the font-size to 25 pixels */
+    color: white;
+    font-family: "Quicksand", Courier, monospace;
     font-size: 25px;
+}
+
+.topleft {
+    position: absolute;
+    top: 0;
+    left: 16px;
+}
+
+.middle {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+hr {
+    margin: auto;
+    width: 40%;
 }
