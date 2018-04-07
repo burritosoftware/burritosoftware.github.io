@@ -2,14 +2,33 @@
 <head>
 <link href='https://fonts.googleapis.com/css?family=Quicksand' rel='stylesheet'>
 <link rel="stylesheet" type="text/css" href="main.css">
-<script src="https://crate.widgetbot.io/v2" defer async data-cfasync="false">new Crate({"server":"419367512262705152","channel":"423598233143738373","buttons":{"primary":"Open Server in Discord","secondary":""}})</script>
+<script src="https://crate.widgetbot.io/v2" async defer>
+  new Crate({
+    server: '419367512262705152',
+    channel: '423598233143738373',
+    buttons: {
+      primary:"Open Server in Discord"
+      secondary:""
+    }
+    notifications: {
+      indicator: {
+        enable: true,
+      },
+      toasts: {
+        enable         : false,     // Whether to enable toasts or not
+        visibilityTime : 5,        // Max amount of time the toasts should be visible for (set to 0 to disable timeout)
+        maxMessages    : 5,        // Max amount of messages to display on screen
+      }
+    }
+  })
+</script>
 <style>
 body {
     font-family: 'Quicksand';font-size: 22px;
 }
 </style>
 </head>
-<body>
+<body onload="crate.message('**Welcome to the BurritoSOFTWARE website!** Our site is in construction, but if you need help with a product, please click this button!', 20000, 'https://media.discordapp.net/icons/419367512262705152/a0ce508d31a9d73943c11d3c7c365b16.jpg'">
 <div class="bgimg">
     <div class="topleft">
       <p>BurritoSOFTWARE</p>
