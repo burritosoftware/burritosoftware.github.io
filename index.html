@@ -1,6 +1,15 @@
 <html>
 <head>
 <link href='https://fonts.googleapis.com/css?family=Quicksand' rel='stylesheet'>
+<title>BurritoSOFTWARE</title>
+<body style="margin: 0;"></body>
+<meta name="description" content="We create unique Discord bots.">
+<script>
+  document.ontouchmove = function(event){
+    event.preventDefault();
+}
+</script>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 <link rel="stylesheet" type="text/css" href="main.css">
 <script src="https://crate.widgetbot.io/v2" async defer>
   var CrateIntercom = new Crate({
@@ -12,7 +21,7 @@
     },
     buttons: {
       primary: 'Open Server in Discord',
-      secondary: ''
+      secondary: 'Start Live Chat'
     }
   })
   CrateIntercom.message('**Welcome to BurritoSOFTWARE!** If you need any help, let us know by clicking this button to chat with us!', 15000, 'https://media.discordapp.net/icons/419367512262705152/a0ce508d31a9d73943c11d3c7c365b16.jpg')
