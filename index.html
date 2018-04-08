@@ -3,15 +3,17 @@
 <link href='https://fonts.googleapis.com/css?family=Quicksand' rel='stylesheet'>
 <link rel="stylesheet" type="text/css" href="main.css">
 <script src="https://crate.widgetbot.io/v2" async defer>
-  new Crate({
+  var CrateIntercom = new Crate({
     server: '419367512262705152',
     channel: '423598233143738373',
     logo: 'intercom',
     buttons: {
-      primary:"Open Server in Discord"
-      secondary:""
+      primary: 'Open Server in Discord'
+      secondary: ''
+      }
     }
   })
+  CrateIntercom.message('**Welcome to BurritoSOFTWARE!** If you need any help, let us know by clicking this button to chat with us!', false)
 </script>
 <style>
 body {
