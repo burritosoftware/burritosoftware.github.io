@@ -1,9 +1,9 @@
 # BurritoSOFTWARE
 
-[![Discord invite][https://discordapp.com/api/guilds/419367512262705152/embed.png?style=shield]](https://discord.gg/CGM4k3N)
+[![Discord invite](https://discordapp.com/api/guilds/419367512262705152/embed.png?style=shield)](https://discord.gg/CGM4k3N)
 ![GitHub last commit](https://img.shields.io/github/last-commit/burritosoftware/burritosoftware.github.io.svg)
 ![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/burritosoftware/burritosoftware.github.io.svg)
-[![Website][https://img.shields.io/website-online-down-green-red/https/burritosoftware.github.io.svg?label=github%20pages]](https://burritosoftware.github.io)
+[![Website](https://img.shields.io/website-online-down-green-red/https/burritosoftware.github.io.svg?label=github%20pages)](https://burritosoftware.github.io)
 
 This repo contains the website files for BurritoSOFTWARE's website.
 
