@@ -1,7 +1,7 @@
 # BurritoSOFTWARE
 <div align="center">
   <p>
-    <a href="https://discord.gg/CGM4k3N"><img src="https://discordapp.com/api/guilds/419367512262705152/embed.png?style=banner2" alt="Discord server" /></a>
+    <a href="https://discord.gg/CGM4k3N"><img src="https://discordapp.com/api/guilds/419367512262705152/embed.png" alt="Discord server" /></a>
 </div>
 
 ![GitHub last commit](https://img.shields.io/github/last-commit/burritosoftware/burritosoftware.github.io.svg)
