@@ -11,24 +11,28 @@
 </script>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <link rel="stylesheet" type="text/css" href="main.css">
-<script src="https://crate.widgetbot.io/v2" async defer>
-  var CrateIntercom = new Crate({
+<script src="https://cdn.jsdelivr.net/npm/@widgetbot/crate@3" async>
+  const button = new Crate({
     server: '419367512262705152',
     channel: '423598233143738373',
-    logo: {
-      url: 'https://media.discordapp.net/icons/419367512262705152/a0ce508d31a9d73943c11d3c7c365b16.jpg',
-      size: '100% 100%'
-    },
-    colors: {
-      toggle: '#212427'
-    },
-    buttons: {
-      primary: 'Open Server in Discord',
-      secondary: 'Start Live Chat'
-    },
-    delay: true
+    shard: 'https://cl3.widgetbot.io', // Update the Cluster number
+    color: '#212427',
+    glyph: ['https://discordapp.com/api/guilds/419367512262705152/icons/d38071739aa079d478135c9fb0b845b8.jpg', '100%']
   })
-  CrateIntercom.message('**Welcome to BurritoSOFTWARE!** If you need any help, let us know by clicking this button to chat with us!', 15000, 'https://media.discordapp.net/icons/419367512262705152/a0ce508d31a9d73943c11d3c7c365b16.jpg')
+
+  button.notify({
+    content: '**Welcome to BurritoSOFTWARE!** If you need any help, let us know by clicking this button to chat with us!',
+    timeout: 15000,
+    avatar: 'https://cdn.discordapp.com/avatars/261236127581601793/e908f4e0b0e218be672c16b264bd9e41.png'
+  })
+
+  button.on('signIn', (user) => {
+    crate.emit('sendMessage', {
+      channel: '472919624489500674',
+      message: `<@&419372442419462146> A customer just signed in as ${user.name}! Please check <#423598233143738373>.`
+    })
+  })
+  </script>
 </script>
 <style>
 body {
@@ -42,7 +46,7 @@ body {
       <p>BurritoSOFTWARE</p>
     </div>
     <div class="middle">
-      <h1>Website Coming Soon</h1>
+      <h1>Welcome.</h1>
       <hr>
       <p>Create your Experience.</p>
       <a href="discord">
