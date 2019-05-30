@@ -9,3 +9,30 @@
 <meta property="og:title" content="BurritoSOFTWARE">
 <meta property="og:description" content="Welcome to BurritoSOFTWARE's home for real-time and historial data on system performance.">
 <body style="margin: 0;"><iframe src="https://stats.uptimerobot.com/D0gJ9Ckkw" style="border: 0; width: 100%; height: 100%"></iframe></body>
+</script>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" type="text/css" href="main.css">
+<script src="https://cdn.jsdelivr.net/npm/@widgetbot/crate@3" async>
+  const button = new Crate({
+    server: '419367512262705152',
+    channel: '423598233143738373',
+    shard: 'https://disweb.deploys.io', // Update the Cluster number
+    color: '#212427',
+    defer: true,
+    glyph: ['https://cdn.discordapp.com/icons/419367512262705152/d38071739aa079d478135c9fb0b845b8.png', '100%']
+  })
+
+  button.notify({
+    content: '**Is a bot down?** Let us know by clicking here to chat with us.',
+    timeout: 15000,
+    avatar: 'https://cdn.discordapp.com/avatars/261236127581601793/a_bc2e163e6681511b47b109e5e873e8ac.gif'
+  })
+
+  button.on('signIn', (user) => {
+    crate.emit('sendMessage', {
+      channel: '472919624489500674',
+      message: `<@&419372442419462146> A member just signed in as ${user.name}! Please check <#423598233143738373>.`
+    })
+  })
+  </script>
+</script>
