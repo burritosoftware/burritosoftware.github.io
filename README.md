@@ -7,6 +7,4 @@
 
 This repo contains the website files for BurritoSOFTWARE's website.
 
-Special thanks to Google Fonts and W3Schools for providing some awesome fonts and tutorials!
-
-Huge thanks to WidgetBot for an awesome Intercom-like chatting feature, and shields.io for awesome badges!
+Thank you to Deploys.io for cool Discord integration, and UptimeRobot for a nice free status page!
