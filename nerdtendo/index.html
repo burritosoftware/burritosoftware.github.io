@@ -1,6 +1,39 @@
 <!DOCTYPE html>
 <html  >
 <head>
+  <!--BEGINNING OF BURRITOSOFTWARE CUSTOM CODE-->
+    <script src="https://cdn.jsdelivr.net/npm/@widgetbot/crate@3" async>
+      window.onload = function() {
+        const button = new Crate({
+          server: '419367512262705152',
+          channel: '423598233143738373',
+          shard: 'https://disweb.deploys.io', // Update the Cluster number
+          color: '#212427',
+          defer: true,
+          glyph: ['https://cdn.discordapp.com/icons/419367512262705152/d38071739aa079d478135c9fb0b845b8.png', '100%']
+        })        
+
+        button.notify({
+          content: '**Hi! Welcome to Nerdtendo!** Feel free to ask any questions.',
+          timeout: 10000,
+          avatar: 'https://cdn.discordapp.com/avatars/261236127581601793/a_bc2e163e6681511b47b109e5e873e8ac.gif'
+        })
+
+        button.on('signIn', (user) => {
+          crate.emit('sendMessage', {
+            channel: '472919624489500674',
+            message: `<@&419372442419462146> A member just signed in as ${user.name}! Please check <#423598233143738373>.`
+           })
+        })
+
+        var a = document.getElementById("supportLink");
+        a.onclick = function() {
+          button.toggle(true)
+          return false;
+        }
+      }
+    </script>
+    <!--END OF BURRITOSOFTWARE CUSTOM CODE-->
   <!-- Site made with Mobirise Website Builder v4.10.8, https://mobirise.com -->
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -36,7 +69,7 @@
                 <div class="hamburger-icon"></div>
             </button>
 
-            <ul class="nav-dropdown collapse pull-xs-right navbar-toggleable-sm nav navbar-nav" id="exCollapsingNavbar"><li class="nav-item"><a class="nav-link link" href="https://burritosoftware.github.io/discord" target="_blank">SUPPORT</a></li><li class="nav-item nav-btn"><a class="nav-link btn btn-warning-outline btn-warning" href="https://bit.ly/nerdtendo">ADD NERDTENDO</a></li></ul>
+            <ul class="nav-dropdown collapse pull-xs-right navbar-toggleable-sm nav navbar-nav" id="exCollapsingNavbar"><li class="nav-item"><a id="supportLink" class="nav-link link" href="#" target="_blank">SUPPORT</a></li><li class="nav-item nav-btn"><a class="nav-link btn btn-warning-outline btn-warning" href="https://bit.ly/nerdtendo">ADD NERDTENDO</a></li></ul>
 
         </div>
 
