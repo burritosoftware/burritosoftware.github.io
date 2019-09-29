@@ -1,0 +1,50 @@
+---
+sitemap: false
+---
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+  <!--CSS styles that ensure your typeform takes up all the available screen space (DO NOT EDIT!)-->
+  <style type="text/css">
+    html{
+      margin: 0;
+      height: 100%;
+      overflow: hidden;
+    }
+    div{
+      position: absolute;
+      left:0;
+      right:0;
+      bottom:0;
+      top:0;
+      border:0;
+    }
+  </style>
+  <!--Add the title of your typeform below-->
+  <title>Souper Bowl Sunday</title>
+</head>
+<body>
+        <script src="https://embed.typeform.com/embed.js"></script>
+        <div id="typeform"></div>
+        <script>
+            const embedElement = document.getElementById("typeform"); // NOTE: `.target-dom-node` is the target DOM element from your website or web app
+            
+            typeformEmbed.makeWidget(
+              embedElement,
+              'https://burritosoftware.typeform.com/to/AJqTHi', // NOTE: Replace with your typeform URL
+              {
+                hideHeaders: true,
+                hideFooter: true,
+                opacity: 100,
+                buttonText: "Take Vote",
+                onSubmit: function () {
+                    window.location.href = 'https://burritosoftware.github.io/souperbowlsunday/submitted';
+                }
+              }
+            )
+            
+            Copy
+            </script>
+</body>
+</html>
