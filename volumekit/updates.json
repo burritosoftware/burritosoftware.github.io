@@ -1,6 +1,1 @@
-{
-    "Version": "1.0",
-    "URL": "REPLACEICLOUDURL",
-    "Notes": "VolumeKit initial release.",
-    "Release": "September 22, 2019"
-}
+{"Version":"1.0.1","URL":"https://www.icloud.com/shortcuts/a6836701daef42caa913f5997b8015fc","Notes":"VolumeKit initial release + additional UpdateKit fixes","Release":"October 11, 2019"}
