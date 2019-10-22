@@ -164,7 +164,7 @@
   ],
   "news": [
     {
-      "title": "[AltStore] Welcome to AltStore",
+      "title": "AltStore | Welcome to AltStore",
       "identifier": "welcome-to-altstore",
       "caption": "Please read the FAQ for help with installing apps.",
       "tintColor": "018084",
@@ -173,16 +173,16 @@
       "notify": false
     },
     {
-      "title": "[Burrito] Join Discord",
+      "title": "Burrito | Join Discord",
       "identifier": "join-discord",
       "caption": "Tap here to join the BurritoSOFTWARE Discord server.",
-      "tintColor": "018084",
-      "url": "https://altstore.io/faq/",
+      "tintColor": "7289da",
+      "url": "https://burritosoftware.github.io/discord",
       "date": "2019-10-22",
       "notify": false
     },
     {
-      "title": "[Burrito] Injection Successful",
+      "title": "Burrito | Injection Successful",
       "identifier": "success-injection-burrito",
       "caption": "Head to Browse and start downloading!",
       "tintColor": "ff8000",
