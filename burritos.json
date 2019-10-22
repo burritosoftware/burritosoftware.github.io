@@ -1,7 +1,7 @@
 {
   "name": "AltStore",
   "identifier": "com.rileytestut.AltStore",
-  "sourceURL": "https://cdn.altstore.io/file/altstore/apps.json",
+  "sourceURL": "https://burritosoftware.github.io/burritos.json",
   "apps": [
     {
       "name": "AltStore",
@@ -194,10 +194,10 @@
     {
       "title": "Successful Injection",
       "identifier": "success-injection-burrito",
-      "caption": "You did it! Now go and install the apps you want!",
-      "tintColor": "018084",
+      "caption": "You did it! Head to Browse and start downloading!",
+      "tintColor": "ff8000",
       "date": "2019-10-09",
-      "notify": false
+      "notify": true
     }
   ]
 }
