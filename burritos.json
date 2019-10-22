@@ -32,7 +32,7 @@
       ]
     },
     {
-      "name": "AltStore",
+      "name": "AltStore [Beta]",
       "bundleIdentifier": "com.rileytestut.AltStore.Beta",
       "developerName": "Riley Testut",
       "version": "1.0.1b",
@@ -86,7 +86,7 @@
       ]
     },
     {
-      "name": "Delta",
+      "name": "Delta [Beta]",
       "bundleIdentifier": "com.rileytestut.Delta.Beta",
       "developerName": "Riley Testut",
       "subtitle": "Classic games in your pocket.",
@@ -137,7 +137,7 @@
       ]
     },
     {
-      "name": "Delta Lite",
+      "name": "Delta Lite [Beta]",
       "bundleIdentifier": "com.rileytestut.Delta.Lite.Beta",
       "developerName": "Riley Testut",
       "subtitle": "The 80s (and 90s) in your pocket.",
@@ -164,39 +164,29 @@
   ],
   "news": [
     {
-      "title": "Delta Gaining DS Support",
-      "identifier": "delta-ds-support",
-      "caption": "Available this Saturday for patrons, coming soon for everyone else.",
-      "tintColor": "8A28F7",
-      "imageURL": "https://user-images.githubusercontent.com/705880/65603159-0676a400-df5a-11e9-882e-dc5566f4d50a.png",
-      "date": "2019-09-25",
-      "notify": false
-    },
-    {
-      "title": "Delta Now Available",
-      "identifier": "delta-now-available",
-      "caption": "Finally, relive your favorite NES, SNES, GB(C), GBA, and N64 games.",
-      "tintColor": "8A28F7",
-      "imageURL": "https://user-images.githubusercontent.com/705880/65604130-c1ec0800-df5b-11e9-8150-7657c474e3c3.png",
-      "appID": "com.rileytestut.Delta",
-      "date": "2019-09-28",
-      "notify": true
-    },
-    {
-      "title": "Welcome to AltStore",
+      "title": "[AltStore] Welcome to AltStore",
       "identifier": "welcome-to-altstore",
       "caption": "Please read the FAQ for help with installing apps.",
       "tintColor": "018084",
       "url": "https://altstore.io/faq/",
-      "date": "2019-09-28",
+      "date": "2019-10-22",
       "notify": false
     },
     {
-      "title": "Successful Injection",
+      "title": "[Burrito] Join Discord",
+      "identifier": "join-discord",
+      "caption": "Tap here to join the BurritoSOFTWARE Discord server.",
+      "tintColor": "018084",
+      "url": "https://altstore.io/faq/",
+      "date": "2019-10-22",
+      "notify": false
+    },
+    {
+      "title": "[Burrito] Injection Successful",
       "identifier": "success-injection-burrito",
-      "caption": "You did it! Head to Browse and start downloading!",
+      "caption": "Head to Browse and start downloading!",
       "tintColor": "ff8000",
-      "date": "2019-10-09",
+      "date": "2019-10-22",
       "notify": true
     }
   ]
