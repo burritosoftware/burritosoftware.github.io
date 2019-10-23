@@ -10,7 +10,7 @@
       "version": "1.0.1b",
       "versionDate": "2019-09-28T03:00:00-07:00",
       "versionDescription": "Redirects requests to the BurritoSOFTWARE server.",
-      "downloadURL": "https://f000.backblazeb2.com/file/altstore/altstore-beta.ipa",
+      "downloadURL": "https://burritosoftware.github.io/altstore-beta-burrito.ipa",
       "localizedDescription": "AltStore is an alternative app store for non-jailbroken devices. \n\nThis beta release of AltStore allows you to install Delta as well as any app (.ipa) directly from the Files app.",
       "iconURL": "https://user-images.githubusercontent.com/705880/65270980-1eb96f80-dad1-11e9-9367-78ccd25ceb02.png",
       "tintColor": "018084",
@@ -36,7 +36,7 @@
     {
       "title": "AltStore | Having trouble?",
       "identifier": "having-trouble",
-    "caption": "Tap here to open the AltStore Frequently Asked Questions list.",
+    "caption": "Tap here to open the AltStore FAQ.",
       "tintColor": "018084",
       "url": "https://altstore.io/faq/",
       "date": "2019-10-22",
@@ -45,7 +45,7 @@
     {
       "title": "Burrito | Join Discord",
       "identifier": "join-discord",
-      "caption": "Need help? Tap here to join the BurritoSOFTWARE Discord server. Please read the FAQ first below before contacting!",
+      "caption": "Tap here to join the BurritoSOFTWARE Discord.",
       "tintColor": "7289da",
       "url": "https://burritosoftware.github.io/discord",
       "date": "2019-10-22",
