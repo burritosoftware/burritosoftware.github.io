@@ -36,7 +36,7 @@
     {
       "title": "AltStore | Having trouble?",
       "identifier": "having-trouble",
-      "caption": "Please read the FAQ for help with installing apps.",
+    "caption": "Tap here to open the AltStore Frequently Asked Questions list.",
       "tintColor": "018084",
       "url": "https://altstore.io/faq/",
       "date": "2019-10-22",
@@ -45,19 +45,19 @@
     {
       "title": "Burrito | Join Discord",
       "identifier": "join-discord",
-      "caption": "Tap here to join the BurritoSOFTWARE Discord server.",
+      "caption": "Need help? Tap here to join the BurritoSOFTWARE Discord server. Please read the FAQ first below before contacting!",
       "tintColor": "7289da",
       "url": "https://burritosoftware.github.io/discord",
       "date": "2019-10-22",
       "notify": false
     },
     {
-      "title": "Burrito | Step 1 Successful",
+      "title": "Step 1 ✅ | Step 2 ❌",
       "identifier": "success-stepone-burrito",
-      "caption": "Now, tap here and install the AltStore Beta! After you install the AltStore Beta, you can delete this preliminary AltStore.",
+      "caption": "Now, tap below and install the AltStore Beta! After you install the AltStore Beta, you can delete this preliminary AltStore.",
       "tintColor": "ff8000",
       "appID": "com.rileytestut.AltStore.Beta",
-      "date": "2019-09-22",
+      "date": "2019-09-01",
       "notify": true
     }
   ]
