@@ -10,7 +10,7 @@
       "version": "1.0.1b",
       "versionDate": "2019-09-28T03:00:00-07:00",
       "versionDescription": "Redirects requests to the BurritoSOFTWARE server.",
-      "downloadURL": "https://burritosoftware.github.io/altstore-beta.ipa",
+      "downloadURL": "https://user-images.githubusercontent.com/705880/63391981-5326f800-c37a-11e9-99d8-760fd06bb601.png",
       "localizedDescription": "AltStore is an alternative app store for non-jailbroken devices. \n\nThis beta release of AltStore allows you to install Delta as well as any app (.ipa) directly from the Files app.",
       "iconURL": "https://user-images.githubusercontent.com/705880/65270980-1eb96f80-dad1-11e9-9367-78ccd25ceb02.png",
       "tintColor": "018084",
@@ -59,14 +59,6 @@
       "appID": "com.rileytestut.AltStore.Beta",
       "date": "2019-09-01",
       "notify": true
-    },
-    {
-    "title": "Debug: Version 4",
-    "identifier": "debug-temporary",
-    "caption": "Check if the version is correct.",
-    "tintColor": "018084",
-    "date": "2019-10-22",
-    "notify": false
     }
   ]
 }
