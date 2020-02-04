@@ -92,14 +92,14 @@
       "bundleIdentifier": "com.rileytestut.Delta.Beta",
       "developerName": "Riley Testut",
       "subtitle": "Classic games in your pocket.",
-      "version": "1.1.1b",
-      "versionDate": "2019-12-11T16:00:00-08:00",
-      "versionDescription": "• Fixes issue preventing album artwork from loading",
+      "version": "1.1.2b",
+      "versionDate": "2020-02-03T19:30:00-08:00",
+      "versionDescription": "• Fixes crash when running on iOS 13.3.1",
       "downloadURL": "https://f000.backblazeb2.com/file/altstore/delta-beta.ipa",
       "localizedDescription": "The next console for Delta is coming: this beta version of Delta brings support for playing DS games!\n\nDS support currently includes:\n• Playing DS games\n• Save States\n• Hold Button\n\nFeatures I'm still working on:\n• Fast Forward\n• Cheats\n• Controller skin (using placeholder controller skin for now)\n\nPlease report any issues you find to support@altstore.io. Thanks!",
       "iconURL": "https://user-images.githubusercontent.com/705880/63391976-4d311700-c37a-11e9-91a8-4fb0c454413d.png",
       "tintColor": "8A28F7",
-      "size": 19605416,
+      "size": 17541683,
       "beta": true,
       "permissions": [
         {
