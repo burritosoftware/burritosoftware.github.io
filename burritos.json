@@ -210,15 +210,15 @@
       "date": "2019-09-28",
       "notify": true
     },
-    {
-      "title": "Welcome to AltStore",
-      "identifier": "welcome-to-altstore",
-      "caption": "Please read the FAQ for help with installing apps.",
+{
+      "title": "Connected to BurritoServer",
+      "identifier": "connection",
+      "caption": "Tap here to go to our website. Beta items have a "b" in their version numbers. New updates to this are pushed every 15 minutes. Last updated: 2020-02-03 08:38 PM PST",
       "tintColor": "018084",
       "url": "https://altstore.io/faq/",
-      "date": "2019-09-28",
+      "date": "2020-02-03",
       "notify": false
-    },
+},
     {
       "title": "Coming Soon: Clip",
       "identifier": "clip-coming-soon",
