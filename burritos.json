@@ -165,7 +165,7 @@
       ]
     },
     {
-      "name": "Delta Lite",
+      "name": "Delta Lite [Beta]",
       "bundleIdentifier": "com.rileytestut.Delta.Lite.Beta",
       "developerName": "Riley Testut",
       "subtitle": "The 80s (and 90s) in your pocket.",
@@ -177,7 +177,7 @@
       "iconURL": "https://user-images.githubusercontent.com/705880/63391976-4d311700-c37a-11e9-91a8-4fb0c454413d.png",
       "tintColor": "8A28F7",
       "size": 16509767,
-      "beta": true,
+      "beta": false,
       "permissions": [
         {
           "type": "photos",
@@ -187,6 +187,35 @@
       "screenshotURLs": [
         "https://user-images.githubusercontent.com/705880/65599562-fe673600-df52-11e9-9cfb-b60a11568baf.PNG",
         "https://user-images.githubusercontent.com/705880/65599567-01fabd00-df53-11e9-8654-f075c0f32c59.PNG"
+      ]
+    },
+    {
+      "name": "iNDS",
+      "bundleIdentifier": "net.nerd.iNDS",
+      "developerName": "iNDS Team",
+      "subtitle": "Revival of the Nintendo DS emulator for iOS.",
+      "version": "1.10.7",
+      "versionDate": "2020-02-10",
+      "versionDescription": "Version 1.10.7 adds better support for Dark Mode on iOS, thus fixing #129 and #148. Additionally, landscape mode support for modern iPhones (after iPhone X) was improved, fixing #153. Additionally, a bug was fixed in which the status bar would appear in-game and not be dismissable.",
+      "downloadURL": "https://github.com/iNDS-Team/iNDS/releases/download/v1.10.7/iNDS.ipa",
+      "localizedDescription": "iNDS is a derivation of the previous Nintendo DS apps for iOS, nds4ios and Nitrogen.",
+      "iconURL": "https://inds.nerd.net/Resources/required/AppIcon256.png",
+      "tintColor": "FC2125",
+      "size": 857669,
+      "beta": false,
+      "permissions": [
+        {
+          "type": "photos",
+          "usageDescription": "Allows iNDS to use images from your Photo Library as game artwork."
+        }
+      ],
+      "screenshotURLs": [
+        "https://static.appdb.to/images/cydia-1900000021-iphone-0.png",
+        "https://static.appdb.to/images/cydia-1900000021-iphone-1.png",
+        "https://static.appdb.to/images/cydia-1900000021-iphone-2.png",
+        "https://static.appdb.to/images/cydia-1900000021-iphone-3.png",
+        "https://static.appdb.to/images/cydia-1900000021-iphone-4.png",
+        "https://static.appdb.to/images/cydia-1900000021-iphone-5.png"
       ]
     }
   ],
