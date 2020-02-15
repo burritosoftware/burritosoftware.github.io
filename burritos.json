@@ -184,7 +184,7 @@
 			"versionDate": "2020-02-10",
 			"versionDescription": "Version 1.10.7 adds better support for Dark Mode on iOS, thus fixing #129 and #148. Additionally, landscape mode support for modern iPhones (after iPhone X) was improved, fixing #153. Additionally, a bug was fixed in which the status bar would appear in-game and not be dismissable.",
 			"downloadURL": "https://github.com/iNDS-Team/iNDS/releases/download/v1.10.7/iNDS.ipa",
-			"localizedDescription": "iNDS is a derivation of the previous Nintendo DS apps for iOS, nds4ios and Nitrogen. The iNDS Team release of iNDS is a fork of the original iNDS emulator by William Cobb. iNDS Team aims to create a version that is driven by support from the community, adding trusted contributors to the team over time, so that pull requests and issues do not sit untouched.\nCurrently, emulation is powered by the DeSmuME threaded ARM interpreter and runs at nearly full speed on the iPhone 5 and above. Due to the need to mmap the entire ROM into memory, older devices with only 256MB of RAM are not supported. These devices include the iPod Touch 4, iPad 1, iPhone 3GS, and anything below those devices.",
+			"localizedDescription": "iNDS is a derivation of the previous Nintendo DS apps for iOS, nds4ios and Nitrogen. The iNDS Team release of iNDS is a fork of the original iNDS emulator by William Cobb. iNDS Team aims to create a version that is driven by support from the community, adding trusted contributors to the team over time, so that pull requests and issues do not sit untouched.\n\nCurrently, emulation is powered by the DeSmuME threaded ARM interpreter and runs at nearly full speed on the iPhone 5 and above. Due to the need to mmap the entire ROM into memory, older devices with only 256MB of RAM are not supported. These devices include the iPod Touch 4, iPad 1, iPhone 3GS, and anything below those devices.",
 			"iconURL": "https://inds.nerd.net/Resources/required/AppIcon256.png",
 			"tintColor": "FC2125",
 			"size": 857669,
@@ -201,41 +201,58 @@
 		}
 	],
 	"news": [{
-			"title": "Delta Gaining DS Support",
-			"identifier": "delta-ds-support",
-			"caption": "Available this Saturday for patrons, coming soon for everyone else.",
+			"title": "Delta Lite Beta",
+			"identifier": "delta-lite-backup",
+			"caption": "Now with DS support. Tap to download the beta.",
 			"tintColor": "8A28F7",
 			"imageURL": "https://user-images.githubusercontent.com/705880/65603159-0676a400-df5a-11e9-882e-dc5566f4d50a.png",
+			"appID": "com.rileytestut.Delta.Beta",
+			"date": "2019-09-24",
+			"notify": false
+		},
+		{
+			"title": "Delta Beta",
+			"identifier": "delta-backup",
+			"caption": "Now with DS support. Tap to download the beta.",
+			"tintColor": "8A28F7",
+			"imageURL": "https://user-images.githubusercontent.com/705880/65603159-0676a400-df5a-11e9-882e-dc5566f4d50a.png",
+			"appID": "com.rileytestut.Delta.Beta",
 			"date": "2019-09-25",
 			"notify": false
 		},
 		{
-			"title": "Delta Now Available",
-			"identifier": "delta-now-available",
-			"caption": "Finally, relive your favorite NES, SNES, GB(C), GBA, and N64 games.",
-			"tintColor": "8A28F7",
-			"imageURL": "https://user-images.githubusercontent.com/705880/65604130-c1ec0800-df5b-11e9-8150-7657c474e3c3.png",
-			"appID": "com.rileytestut.Delta",
-			"date": "2019-09-28",
-			"notify": true
+			"title": "Clip Beta",
+			"identifier": "clip-backup",
+			"caption": "A clipboard manager that runs in the background. Tap to download the beta.",
+			"tintColor": "EC008C",
+			"imageURL": "https://user-images.githubusercontent.com/705880/65606598-04afdf00-df60-11e9-8f93-af6345d39557.png",
+			"appID": "com.rileytestut.Clip.Beta",
+			"date": "2019-12-16",
+			"notify": false
+		},
+		{
+			"title": "Backup Links Section",
+			"identifier": "backuplinks",
+			"caption": "Below this are backup links. If you need to turn off your proxy, but still need to access the betas, the links to the betas will remain below. (Note: Non Riley Testut apps will not appear below.)",
+			"tintColor": "018084",
+			"date": "2020-02-09",
+			"notify": false
+		},
+		{
+			"title": " ",
+			"identifier": "seperator-a",
+			"caption": " ",
+			"tintColor": "424242",
+			"date": "2020-02-10",
+			"notify": false
 		},
 		{
 			"title": "Connected to BurritoServer",
 			"identifier": "connection",
 			"caption": "Connection to BurritoServer successful. Have fun!",
-			"tintColor": "018084",
+			"tintColor": "FF9500",
 			"url": "https://burritosoftware.github.io",
-			"date": "2019-09-28",
-			"notify": false
-		},
-		{
-			"title": "Coming Soon: Clip",
-			"identifier": "clip-coming-soon",
-			"caption": "A clipboard manager that can run in the background. Tap to download the beta.",
-			"tintColor": "EC008C",
-			"imageURL": "https://user-images.githubusercontent.com/705880/65606598-04afdf00-df60-11e9-8f93-af6345d39557.png",
-			"appID": "com.rileytestut.Clip.Beta",
-			"date": "2019-12-16",
+			"date": "2020-02-14",
 			"notify": false
 		}
 	],
