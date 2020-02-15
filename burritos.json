@@ -211,9 +211,9 @@
       "notify": true
     },
     {
-      "title": "Welcome to AltStore",
-      "identifier": "welcome-to-altstore",
-      "caption": "Please read the FAQ for help with installing apps.",
+      "title": "Connected to BurritoServer",
+      "identifier": "connection",
+      "caption": "Connection to BurritoServer successful. Have fun!",
       "tintColor": "018084",
       "url": "https://altstore.io/faq/",
       "date": "2019-09-28",
