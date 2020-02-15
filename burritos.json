@@ -233,7 +233,7 @@
 		{
 			"title": "Backup Links Section",
 			"identifier": "backuplinks",
-			"caption": "Below this are backup links. If you need to turn off your proxy, but still need to access the betas, the links to the betas will remain below. (Note: Non Riley Testut apps will not appear below.)",
+			"caption": "Below this are backup links. If you need to turn off your proxy, but still need to access the betas, the links to the betas will remain below as long as AltStore remains in the background. (Note: Non Riley Testut apps will not appear below.)",
 			"tintColor": "018084",
 			"date": "2020-02-09",
 			"notify": false
@@ -247,9 +247,17 @@
 			"notify": false
 		},
 		{
+			"title": "Turning Off Your Proxy",
+			"identifier": "proxy",
+			"caption": "When you install apps while the proxy is on, or want to use services like Twitter, the service might not load, or the apps might not open immediately and ask to be verified No worries! Turn off your proxy, then (if installing apps) go to Settings > General > Profiles & Device Management, tap your email, then tap to Verify App. Once done, turn back on your proxy.",
+			"tintColor": "018084",
+			"date": "2020-02-09",
+			"notify": false
+		},
+		{
 			"title": "Connected to BurritoServer",
 			"identifier": "connection",
-			"caption": "Connection to BurritoServer successful. Have fun!",
+			"caption": "Connection to BurritoServer successful. Have fun! If you need help, tap here to go to our website.",
 			"tintColor": "FF9500",
 			"url": "https://burritosoftware.github.io",
 			"date": "2020-02-14",
