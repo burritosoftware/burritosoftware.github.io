@@ -1,72 +1,291 @@
 {
-  "name": "AltStore",
-  "identifier": "com.rileytestut.AltStore",
-  "sourceURL": "https://burritosoftware.github.io/burritos.json",
-  "apps": [
-    {
-      "name": "AltStore Beta Installer",
-      "bundleIdentifier": "com.rileytestut.AltStore.Beta",
-      "developerName": "Riley Testut and Burrito",
-      "version": "1.0.1b",
-      "versionDate": "2019-09-28T03:00:00-07:00",
-      "versionDescription": "Redirects requests to the BurritoSOFTWARE server.",
-      "downloadURL": "https://f000.backblazeb2.com/file/altstore/altstore-beta.ipa",
-      "localizedDescription": "AltStore is an alternative app store for non-jailbroken devices. \n\nThis beta release of AltStore allows you to install Delta as well as any app (.ipa) directly from the Files app.",
-      "iconURL": "https://user-images.githubusercontent.com/705880/65270980-1eb96f80-dad1-11e9-9367-78ccd25ceb02.png",
-      "tintColor": "018084",
-      "size": 3399813,
-      "screenshotURLs": [
-        "https://user-images.githubusercontent.com/705880/65605563-2f009d00-df5e-11e9-9b40-1f36135d5c80.PNG",
-        "https://user-images.githubusercontent.com/705880/65605569-30ca6080-df5e-11e9-8dfb-15ebb00e10cb.PNG",
-        "https://user-images.githubusercontent.com/705880/65605577-332cba80-df5e-11e9-9f00-b369ce974f71.PNG"
-      ],
-      "permissions": [
-        {
-          "type": "background-fetch",
-          "usageDescription": "AltStore periodically refreshes apps in the background to prevent them from expiring."
-        },
-        {
-          "type": "background-audio",
-          "usageDescription": "Allows AltStore to run longer than 30 seconds when refreshing apps in background."
-        }
-      ]
-    }
-  ],
-  "news": [
-    {
-      "title": "AltStore | Having trouble?",
-      "identifier": "having-trouble",
-      "caption": "Tap here to open the AltStore FAQ.",
-      "tintColor": "018084",
-      "url": "https://altstore.io/faq/",
-      "date": "2019-10-22",
-      "notify": false
-    },
-    {
-      "title": "Burrito | Join Discord",
-      "identifier": "join-discord",
-      "caption": "Tap here to join the BurritoSOFTWARE Discord.",
-      "tintColor": "7289da",
-      "url": "https://burritosoftware.github.io/discord",
-      "date": "2019-10-22",
-      "notify": false
-    },
-    {
-      "title": "Step 1 ✅ | Step 2 ❌",
-      "identifier": "success-stepone-burrito",
-      "caption": "Now, tap below and install the AltStore Beta! After you install the AltStore Beta, you can delete this preliminary AltStore.",
-      "tintColor": "ff8000",
-      "appID": "com.rileytestut.AltStore.Beta",
-      "date": "2019-09-01",
-      "notify": true
-    },
-    {
-    "title": "If you see this",
-    "identifier": "debug-temporary",
-    "caption": "the JSON is updated!",
-    "tintColor": "018084",
-    "date": "2019-10-22",
-    "notify": false
-    }
-  ]
+	"name": "AltStore",
+	"identifier": "com.rileytestut.AltStore",
+	"sourceURL": "https://burritosoftware.github.io/burritos.json",
+	"apps": [{
+			"name": "AltStore",
+			"bundleIdentifier": "com.rileytestut.AltStore",
+			"developerName": "Riley Testut",
+			"version": "1.2",
+			"versionDate": "2020-02-12T08:00:00-08:00",
+			"versionDescription": "FEATURES\n• Install and refresh apps over USB, not just WiFi (requires updating to latest AltServer version)\n• Supports sideloading unc0ver (support for sideloading any app coming soon)\n\nBUG FIXES\n• Fixes \"Device Already Registered\" error\n• Fixes \"Session Expired\" error when installing apps on slow connection",
+			"downloadURL": "https://f000.backblazeb2.com/file/altstore/altstore.ipa",
+			"localizedDescription": "AltStore is an alternative app store for non-jailbroken devices. \n\nThis initial release of AltStore allows you to install Delta, an all-in-one emulator for iOS, with support for installing 3rd party apps coming soon.",
+			"iconURL": "https://user-images.githubusercontent.com/705880/65270980-1eb96f80-dad1-11e9-9367-78ccd25ceb02.png",
+			"tintColor": "018084",
+			"size": 2114068,
+			"screenshotURLs": [
+				"https://user-images.githubusercontent.com/705880/65605563-2f009d00-df5e-11e9-9b40-1f36135d5c80.PNG",
+				"https://user-images.githubusercontent.com/705880/65605569-30ca6080-df5e-11e9-8dfb-15ebb00e10cb.PNG",
+				"https://user-images.githubusercontent.com/705880/65605577-332cba80-df5e-11e9-9f00-b369ce974f71.PNG"
+			],
+			"permissions": [{
+					"type": "background-fetch",
+					"usageDescription": "AltStore periodically refreshes apps in the background to prevent them from expiring."
+				},
+				{
+					"type": "background-audio",
+					"usageDescription": "Allows AltStore to run longer than 30 seconds when refreshing apps in background."
+				}
+			]
+		},
+		{
+			"name": "AltStore (Beta)",
+			"bundleIdentifier": "com.rileytestut.AltStore.Beta",
+			"developerName": "Riley Testut",
+			"subtitle": "An alternative App Store for iOS.",
+			"version": "1.2b4",
+			"versionDate": "2020-02-11T18:30:00-08:00",
+			"versionDescription": "• View all registered App IDs for your account\n• Fixed inaccurate remaining App ID count\n\nThis is the final beta for AltStore 1.2 before the public release, which includes support for installing apps completely over USB. To test installing over USB, make sure to download the AltServer beta from https://altstore.io/altserver/beta",
+			"downloadURL": "https://f000.backblazeb2.com/file/altstore/altstore-beta.ipa",
+			"localizedDescription": "AltStore is an alternative app store for non-jailbroken devices. \n\nThis beta release of AltStore allows you to install Delta as well as any app (.ipa) directly from the Files app.",
+			"iconURL": "https://user-images.githubusercontent.com/705880/65270980-1eb96f80-dad1-11e9-9367-78ccd25ceb02.png",
+			"tintColor": "018084",
+			"size": 2114670,
+			"beta": false,
+			"screenshotURLs": [
+				"https://user-images.githubusercontent.com/705880/65605563-2f009d00-df5e-11e9-9b40-1f36135d5c80.PNG",
+				"https://user-images.githubusercontent.com/705880/65605569-30ca6080-df5e-11e9-8dfb-15ebb00e10cb.PNG",
+				"https://user-images.githubusercontent.com/705880/65605577-332cba80-df5e-11e9-9f00-b369ce974f71.PNG"
+			],
+			"permissions": [{
+					"type": "background-fetch",
+					"usageDescription": "AltStore periodically refreshes apps in the background to prevent them from expiring."
+				},
+				{
+					"type": "background-audio",
+					"usageDescription": "Allows AltStore to run longer than 30 seconds when refreshing apps in background."
+				}
+			]
+		},
+		{
+			"name": "Delta",
+			"bundleIdentifier": "com.rileytestut.Delta",
+			"developerName": "Riley Testut",
+			"subtitle": "Classic games in your pocket.",
+			"version": "1.1.2",
+			"versionDate": "2020-02-04T15:30:00-08:00",
+			"versionDescription": "• Fixes crash when running on iOS 13.3.1",
+			"downloadURL": "https://f000.backblazeb2.com/file/altstore/delta.ipa",
+			"localizedDescription": "Delta is an all-in-one emulator for iOS. Delta builds upon the strengths of its predecessor, GBA4iOS, while expanding to include support for more game systems such as NES, SNES, and N64.\n\nFEATURES\n\nSupported Game Systems\n• Nintendo Entertainment System\n• Super Nintendo Entertainment System\n• Nintendo 64\n• Game Boy (Color)\n• Game Boy Advance\n• And plenty more to come!\n\nController Support\n• Supports PS4, Xbox One S, and MFi game controllers.\n• Supports bluetooth (and wired) keyboards, as well as the Apple Smart Keyboard.\n• Completely customize button mappings on a per-system, per-controller basis.\n• Map buttons to special “Quick Save”, “Quick Load,” and “Fast Forward” actions.\n\nSave States\n• Save and load save states for any game from the pause menu.\n• Lock save states to prevent them from being accidentally overwritten.\n• Automatically makes backup save states to ensure you never lose your progress.\n• Support for “Quick Saves,” save states that can be quickly saved/loaded with a single button press (requires external controller).\n\nCheats\n• Supports various types of cheat codes for each supported system:\n• NES: Game Genie\n• SNES: Game Genie, Pro Action Replay\n• N64: GameShark\n• GBC: Game Genie, GameShark\n• GBA: Action Replay, Code Breaker, GameShark\n\nDelta Sync\n• Sync your games, game saves, save states, cheats, controller skins, and controller mappings between devices.\n• View version histories of everything you sync and optionally restore them to earlier versions.\n• Supports both Google Drive and Dropbox.\n\nCustom Controller Skins\n• Beautiful built-in controller skins for all systems.\n• Import controller skins made by others, or even make your own to share with the world!\n\nHold Button\n• Choose buttons for Delta to hold down on your behalf, freeing up your thumbs to press other buttons instead.\n• Perfect for games that typically require one button be held down constantly (ex: run button in Mario games, or the A button in Mario Kart).\n\nFast Forward\n• Speed through slower parts of games by running the game much faster than normal.\n• Easily enable or disable from the pause menu, or optionally with a mapped button on an external controller.\n\n3D/Haptic Touch\n• Use 3D or Haptic Touch to “peek” at games, save states, and cheat codes.\n• App icon shortcuts allow quick access to your most recently played games, or optionally customize the shortcuts to always include certain games.\n\nGame Artwork\n• Automatically displays appropriate box art for imported games.\n• Change a game’s artwork to anything you want, or select from the built-in game artwork database.\n\nMisc.\n• Gyroscope support for WarioWare: Twisted!\n• Support for delta:// URL scheme to jump directly into a specific game.\n\n**Delta and AltStore LLC are in no way affiliated with Nintendo. The name \"Nintendo\" and all associated game console names are registered trademarks of Nintendo Co., Ltd.**",
+			"iconURL": "https://user-images.githubusercontent.com/705880/63391976-4d311700-c37a-11e9-91a8-4fb0c454413d.png",
+			"tintColor": "8A28F7",
+			"size": 17542718,
+			"permissions": [{
+				"type": "photos",
+				"usageDescription": "Allows Delta to use images from your Photo Library as game artwork."
+			}],
+			"screenshotURLs": [
+				"https://user-images.githubusercontent.com/705880/65600448-f7d9be00-df54-11e9-9e3e-d4c31296da94.PNG",
+				"https://user-images.githubusercontent.com/705880/65813009-f2ae8600-e183-11e9-9eb7-704effc11173.png",
+				"https://user-images.githubusercontent.com/705880/65601117-58b5c600-df56-11e9-9c19-9a5ba5da54cf.PNG",
+				"https://user-images.githubusercontent.com/705880/65601125-5b182000-df56-11e9-9e7e-261480e893c0.PNG"
+			]
+		},
+		{
+			"name": "Delta (Beta)",
+			"bundleIdentifier": "com.rileytestut.Delta.Beta",
+			"developerName": "Riley Testut",
+			"subtitle": "Classic games in your pocket.",
+			"version": "1.2b",
+			"versionDate": "2020-02-11T16:30:00-08:00",
+			"versionDescription": "GENERAL\n• Replaces 3D Touch peek/pop with iOS 13 context menus\n\nCONTROLLER SKINS\n• Brand new Nintendo DS controller skin\n• New Quick Save, Quick Load, and Fast Forward inputs for controller skins\n• Apply video filters with controller skins\n• Assign controller skins to individual games",
+			"downloadURL": "https://f000.backblazeb2.com/file/altstore/delta-beta.ipa",
+			"localizedDescription": "The next console for Delta is coming: this beta version of Delta brings support for playing DS games!\n\nDS support currently includes:\n• Playing DS games\n• Save States\n• Hold Button\n\nFeatures I'm still working on:\n• Fast Forward\n• Cheats\n• Controller skin (using placeholder controller skin for now)\n\nPlease report any issues you find to support@altstore.io. Thanks!",
+			"iconURL": "https://user-images.githubusercontent.com/705880/63391976-4d311700-c37a-11e9-91a8-4fb0c454413d.png",
+			"tintColor": "8A28F7",
+			"size": 17631726,
+			"beta": false,
+			"permissions": [{
+				"type": "photos",
+				"usageDescription": "Allows Delta to use images from your Photo Library as game artwork."
+			}],
+			"screenshotURLs": [
+				"https://user-images.githubusercontent.com/705880/65600448-f7d9be00-df54-11e9-9e3e-d4c31296da94.PNG",
+				"https://user-images.githubusercontent.com/705880/65601942-e5ad4f00-df57-11e9-9255-1463e0296e46.PNG",
+				"https://user-images.githubusercontent.com/705880/65813009-f2ae8600-e183-11e9-9eb7-704effc11173.png",
+				"https://user-images.githubusercontent.com/705880/65601117-58b5c600-df56-11e9-9c19-9a5ba5da54cf.PNG"
+			]
+		},
+		{
+			"name": "Clip (Beta)",
+			"bundleIdentifier": "com.rileytestut.Clip.Beta",
+			"subtitle": "Manage your clipboard history with ease.",
+			"developerName": "Riley Testut",
+			"version": "1.0b",
+			"versionDate": "2019-01-24T18:20:00-08:00",
+			"versionDescription": "• Disables notification vibration when sound is disabled for notifications.\n\nAssuming all goes well, this should be the final beta before the public launch! Please report any last minute bugs you find to support@altstore.io.",
+			"downloadURL": "https://f000.backblazeb2.com/file/altstore/clip-beta.ipa",
+			"localizedDescription": "Clip is a simple clipboard manager for iOS. \n\nUnlike other clipboard managers, Clip can continue monitoring your clipboard while in the background. No longer do you need to remember to manually open or share to an app to save your clipboard; just copy and paste as you would normally do, and Clip will have your back.\n\nIn addition to background monitoring, Clip also has these features:\n\n• Save text, URLs, and images copied to the clipboard.\n• Copy, delete, or share any clippings saved to Clip.\n• Customizable history limit.\n\nDownload Clip today, and never worry about losing your clipboard again!",
+			"iconURL": "https://user-images.githubusercontent.com/705880/63391981-5326f800-c37a-11e9-99d8-760fd06bb601.png",
+			"tintColor": "EC008C",
+			"size": 462771,
+			"beta": false,
+			"permissions": [{
+				"type": "background-audio",
+				"usageDescription": "Allows Clip to continuously monitor your clipboard in the background."
+			}],
+			"screenshotURLs": [
+				"https://user-images.githubusercontent.com/705880/63391950-34286600-c37a-11e9-965f-832efe3da507.png",
+				"https://user-images.githubusercontent.com/705880/70830209-8e738980-1da4-11ea-8b3b-6e5fbc78adff.png"
+			]
+		},
+		{
+			"name": "Delta Lite",
+			"bundleIdentifier": "com.rileytestut.Delta.Lite",
+			"developerName": "Riley Testut",
+			"subtitle": "The 80s in your pocket.",
+			"version": "1.0",
+			"versionDate": "2019-09-25",
+			"versionDescription": "Initial version.",
+			"downloadURL": "https://f000.backblazeb2.com/file/altstore/delta-lite.ipa",
+			"localizedDescription": "Delta Lite brings NES games to iOS.",
+			"iconURL": "https://user-images.githubusercontent.com/705880/63391976-4d311700-c37a-11e9-91a8-4fb0c454413d.png",
+			"tintColor": "8A28F7",
+			"size": 15256861,
+			"permissions": [{
+				"type": "photos",
+				"usageDescription": "Allows Delta to use images from your Photo Library as game artwork."
+			}],
+			"screenshotURLs": [
+				"https://user-images.githubusercontent.com/705880/65599574-07580780-df53-11e9-97a3-b27141c8cae8.PNG",
+				"https://user-images.githubusercontent.com/705880/65599570-04f5ad80-df53-11e9-914a-8c42ac4805b0.PNG"
+			]
+		},
+		{
+			"name": "Delta Lite (Beta)",
+			"bundleIdentifier": "com.rileytestut.Delta.Lite.Beta",
+			"developerName": "Riley Testut",
+			"subtitle": "The 80s (and 90s) in your pocket.",
+			"version": "1.0b",
+			"versionDate": "2019-09-25",
+			"versionDescription": "Adds support for GBC games in addition to NES.",
+			"downloadURL": "https://f000.backblazeb2.com/file/altstore/delta-lite-beta.ipa",
+			"localizedDescription": "Delta Lite brings NES and GBC games to iOS.",
+			"iconURL": "https://user-images.githubusercontent.com/705880/63391976-4d311700-c37a-11e9-91a8-4fb0c454413d.png",
+			"tintColor": "8A28F7",
+			"size": 16509767,
+			"beta": false,
+			"permissions": [{
+				"type": "photos",
+				"usageDescription": "Allows Delta to use images from your Photo Library as game artwork."
+			}],
+			"screenshotURLs": [
+				"https://user-images.githubusercontent.com/705880/65599562-fe673600-df52-11e9-9cfb-b60a11568baf.PNG",
+				"https://user-images.githubusercontent.com/705880/65599567-01fabd00-df53-11e9-8654-f075c0f32c59.PNG"
+			]
+		},
+		{
+			"name": "iNDS",
+			"bundleIdentifier": "net.nerd.iNDS",
+			"developerName": "iNDS Team",
+			"subtitle": "Revival of the Nintendo DS emulator for iOS.",
+			"version": "1.10.7",
+			"versionDate": "2020-02-10",
+			"versionDescription": "Version 1.10.7 adds better support for Dark Mode on iOS, thus fixing #129 and #148. Additionally, landscape mode support for modern iPhones (after iPhone X) was improved, fixing #153. Additionally, a bug was fixed in which the status bar would appear in-game and not be dismissable.",
+			"downloadURL": "https://github.com/iNDS-Team/iNDS/releases/download/v1.10.7/iNDS.ipa",
+			"localizedDescription": "iNDS is a derivation of the previous Nintendo DS apps for iOS, nds4ios and Nitrogen. The iNDS Team release of iNDS is a fork of the original iNDS emulator by William Cobb. iNDS Team aims to create a version that is driven by support from the community, adding trusted contributors to the team over time, so that pull requests and issues do not sit untouched.\n\nCurrently, emulation is powered by the DeSmuME threaded ARM interpreter and runs at nearly full speed on the iPhone 5 and above. Due to the need to mmap the entire ROM into memory, older devices with only 256MB of RAM are not supported. These devices include the iPod Touch 4, iPad 1, iPhone 3GS, and anything below those devices.",
+			"iconURL": "https://inds.nerd.net/Resources/required/AppIcon256.png",
+			"tintColor": "FC2125",
+			"size": 857669,
+			"beta": false,
+			"permissions": [{
+				"type": "photos",
+				"usageDescription": "Allows iNDS to use images from your Photo Library as game artwork."
+			}],
+			"screenshotURLs": [
+				"https://static.appdb.to/images/cydia-1900000021-iphone-0.png",
+				"https://static.appdb.to/images/cydia-1900000021-iphone-1.png",
+				"https://static.appdb.to/images/cydia-1900000021-iphone-2.png"
+			]
+		},
+		{
+			"name": "unc0ver",
+			"bundleIdentifier": "science.xnu.undecimus",
+			"developerName": "Pwn20wnd & Sam Bingner",
+			"subtitle": "The most advanced jailbreak tool.",
+			"version": "4.0.0",
+			"versionDate": "2020-02-15",
+			"versionDescription": "Full-fledged support for A12-A13 devices on iOS 13.0-13.3 with Cydia and system-wide tweak injection",
+			"downloadURL": "https://github.com/iNDS-Team/iNDS/releases/download/v1.10.7/iNDS.ipa",
+			"localizedDescription": "unc0ver is a jailbreak, which means that you can have the freedom to do whatever you would like to do to your iOS device. Allowing you to change what you want and operate within your purview, unc0ver unlocks the true power of your iDevice.\n\nCompatible:\nunc0ver supports iOS 11.0 through to iOS 13.3 (Excluding 12.3-12.3.2).\n\nStable:\nUtilizing the latest stable APT and Mobile Substrate, stability is guaranteed.",
+			"iconURL": "https://raw.githubusercontent.com/pwn20wndstuff/Undecimus/master/Undecimus/Assets.xcassets/AppIcon.appiconset/Icon-App-60x60%403x.png",
+			"tintColor": "101216",
+			"size": 857669,
+			"beta": false,
+			"screenshotURLs": [
+				"https://cdn.discordapp.com/attachments/482068798095228928/678392675698999349/image0.png",
+				"https://cdn.discordapp.com/attachments/482068798095228928/678392676340465714/image1.png"
+			]
+		}
+	],
+	"news": [{
+			"title": "Delta Lite Beta",
+			"identifier": "delta-lite-backup",
+			"caption": "The 80s (and 90s) in your pocket. Tap to download the beta.",
+			"tintColor": "8A28F7",
+			"imageURL": "https://user-images.githubusercontent.com/705880/65604130-c1ec0800-df5b-11e9-8150-7657c474e3c3.png",
+			"appID": "com.rileytestut.Delta.Lite.Beta",
+			"date": "2019-09-24",
+			"notify": false
+		},
+		{
+			"title": "Delta Beta",
+			"identifier": "delta-backup",
+			"caption": "Now with DS support. Tap to download the beta.",
+			"tintColor": "8A28F7",
+			"imageURL": "https://user-images.githubusercontent.com/705880/65603159-0676a400-df5a-11e9-882e-dc5566f4d50a.png",
+			"appID": "com.rileytestut.Delta.Beta",
+			"date": "2019-09-25",
+			"notify": false
+		},
+		{
+			"title": "Clip Beta",
+			"identifier": "clip-backup",
+			"caption": "A clipboard manager that runs in the background. Tap to download the beta.",
+			"tintColor": "EC008C",
+			"imageURL": "https://user-images.githubusercontent.com/705880/65606598-04afdf00-df60-11e9-8f93-af6345d39557.png",
+			"appID": "com.rileytestut.Clip.Beta",
+			"date": "2019-12-16",
+			"notify": false
+		},
+		{
+			"title": "Backup Links Section",
+			"identifier": "backuplinks",
+			"caption": "Below this are backup links. If you need to turn off your proxy, but still need to access the betas, the links to the betas will remain below as long as AltStore remains in the background. (Note: Non Riley Testut apps will not appear below.)",
+			"tintColor": "018084",
+			"date": "2020-02-07",
+			"notify": false
+		},
+		{
+			"title": " ",
+			"identifier": "seperator-a",
+			"caption": " ",
+			"tintColor": "1C1C1D",
+			"date": "2020-02-08",
+			"notify": false
+		},
+		{
+			"title": "unc0ver now out!",
+			"identifier": "undecimus",
+			"caption": "The most advanced jailbreak tool. Tap to download.",
+			"tintColor": "101216",
+			"imageURL": "https://cdn.discordapp.com/attachments/482068798095228928/678393363590021130/unknown.png",
+			"appID": "science.xnu.undecimus",
+			"date": "2020-02-09",
+			"notify": false
+		},
+		{
+			"title": "Connected to BurritoServer",
+			"identifier": "connection",
+			"caption": "Connection to BurritoServer successful. Have fun! If you need help, tap here to go to our website.",
+			"tintColor": "FF9500",
+			"url": "https://burritosoftware.github.io",
+			"date": "2020-02-14",
+			"notify": false
+		}
+	],
+	"userInfo": {
+		"patreonAccessToken": "JLh5bpOQsPg-HIRe6FHnRAktoeeU4JT5-Xk-y7njQrM"
+	}
 }
