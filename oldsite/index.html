@@ -1,0 +1,78 @@
+<html>
+<head>
+<link href='https://fonts.googleapis.com/css?family=Quicksand' rel='stylesheet'>
+<title>BurritoSOFTWARE</title>
+<body style="margin: 0;"></body>
+<meta name="description" content="We create unique Discord bots. BurritoSOFTWARE aims to create chatbots that are different from other ones around.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://burritosoftware.github.io">
+<meta property="og:site_name" content="BurritoSOFTWARE">
+<meta proptery="og:keywords" content="burritosoftware, Burritosoftware, burritoSOFTWARE, BurritoSOFTWARE, Blackbox bot, blackbox bot 2, Blackbox Bot 2, burritosoft, arandombot, ARandomBot, nerdtendo, Nerdtendo">
+<meta property="og:image" content="https://burritosoftware.github.io/android-chrome-192x192.png">
+<meta property="og:locale" content="en-US">
+<meta property="og:title" content="BurritoSOFTWARE">
+<meta property="og:description" content="We create unique Discord bots. BurritoSOFTWARE aims to create chatbots that are different from other ones around.">
+
+<script>
+  document.ontouchmove = function(event){
+    event.preventDefault();
+}
+</script>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" type="text/css" href="main.css">
+<script src="https://cdn.jsdelivr.net/npm/@widgetbot/crate@3" async>
+  const button = new Crate({
+    server: '419367512262705152',
+    channel: '423598233143738373',
+    shard: 'https://e.widgetbot.io', // Update the Cluster number
+    color: '#212427',
+    defer: true,
+    glyph: ['https://cdn.discordapp.com/icons/419367512262705152/d38071739aa079d478135c9fb0b845b8.png', '100%']
+  })
+
+  button.notify({
+    content: '**Welcome to BurritoSOFTWARE!** If you need any help, let us know!',
+    timeout: 15000,
+    avatar: 'https://cdn.discordapp.com/avatars/261236127581601793/a_bc2e163e6681511b47b109e5e873e8ac.gif'
+  })
+
+  button.on('signIn', (user) => {
+    crate.emit('sendMessage', {
+      channel: '472919624489500674',
+      message: `<@&419372442419462146> A member just signed in as ${user.name}! Please check <#423598233143738373>.`
+    })
+  })
+  </script>
+</script>
+<style>
+body {
+    font-family: 'Quicksand';font-size: 22px;
+}
+</style>
+<link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+<link rel="manifest" href="site.webmanifest">
+<link rel="mask-icon" href="safari-pinned-tab.svg" color="#212427">
+<meta name="apple-mobile-web-app-title" content="BurritoSOFT">
+<meta name="application-name" content="BurritoSOFT">
+<meta name="msapplication-TileColor" content="#ffc40d">
+<meta name="theme-color" content="#212427">
+</head>
+<body>
+<div class="bgimg">
+    <div class="topleft">
+      <p>BurritoSOFTWARE</p>
+    </div>
+    <div class="middle">
+      <h1>Welcome.</h1>
+      <hr>
+      <p>Create your Experience.</p>
+      <a href="discord" style="float: left">
+        <img border="0" alt="Join our Discord" src="https://discordapp.com/api/guilds/419367512262705152/embed.png?style=banner2">
+      </a>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      <a href="status" style="float: right">
+        <img border="0" alt="Check Server Status" src="https://cdn.discordapp.com/attachments/558842854462717954/583461214659543041/UptimeRobot_Banner.png">
+    </div>
+  </div>
