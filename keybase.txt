@@ -1,0 +1,56 @@
+==================================================================
+https://keybase.io/burritosoftware
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://burrito.software
+  * I am burritosoftware (https://keybase.io/burritosoftware) on keybase.
+  * I have a public key ASAnZ5y7b29U_PfUoYj11-uwceVTBQGpaO-jQT_rtg5ZjAo
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "01205df2579505e44718296a13d2c82e1acf6db5a721369697b326dbf8c370d726380a",
+      "host": "keybase.io",
+      "kid": "012027679cbb6f6f54fcf7d4a188f5d7ebb071e5530501a968efa3413febb60e598c0a",
+      "uid": "4e0bbff89cc17d3bb94d807ae0a8b319",
+      "username": "burritosoftware"
+    },
+    "merkle_root": {
+      "ctime": 1595369514,
+      "hash": "62c82337cd3533175194d98f6a9e40811760ae2f598693128dad6e4404dfe34a043ea245170bcdc28010090ff4f419261958ce083a95b2ff99b3a91c120797f0",
+      "hash_meta": "00547d23077013057b5d5104adc1916e512b08aa1a6e7456f60b101fea5b8dce",
+      "seqno": 17039607
+    },
+    "service": {
+      "entropy": "Bba1eX/HAnljwfyhtfz40Zb9",
+      "hostname": "burrito.software",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 2
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "5.5.0"
+  },
+  "ctime": 1595369543,
+  "expire_in": 504576000,
+  "prev": "b2b4077cc80e727d0a0704e46cde8c8b3bb1722630566b0c17cae9378508e135",
+  "seqno": 20,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgJ2ecu29vVPz31KGI9dfrsHHlUwUBqWjvo0E/67YOWYwKp3BheWxvYWTESpcCFMQgsrQHfMgOcn0KBwTkbN6MizuxciYwVmsMF8rpN4UI4TXEIOJGbq6zbYmIhQOuqlhCOBNAJ20BMuwLznHiMa5dNa/3AgHCo3NpZ8RAw7S0sxySKeMqUVrZDeV6sb1tAoKKlwL3S42zsj5yYzOpGTHq0XT3F76fZUGPUhc+141lNMQKbf/nCfPofk2yDKhzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEIEFpx7TESr8DzFARzJiOUDxFtc0NG1Am9L7ohB0thlkdo3RhZ80CAqd2ZXJzaW9uAQ==
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/burritosoftware
+
+==================================================================
