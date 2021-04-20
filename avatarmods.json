@@ -1,0 +1,19 @@
+{
+    "result": [
+        {
+            "code": "BUDDY",
+            "name": "Buddy",
+            "path": "/assets/avatar/skin/buddy.glb"
+        },
+        {
+            "code": "GLOW_BRO",
+            "name": "Glow Bro",
+            "path": "/assets/avatar/skin/glow_bro.glb"
+        },
+        {
+            "code": "DUCK",
+            "name": "Rubber Duck",
+            "path": "https://beat-saber.is-pretty.cool/9FZkms8.glb"
+        },
+    ]
+}
